@@ -1,1 +1,50 @@
 @import "tailwindcss";
+
+.logo {
+  animation: rotate360 4s linear infinite;
+}
+body{
+  background-color: #dadfffe3;
+
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#hero {
+  animation: fadeIn 2s ease-in-out 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(7vh);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+nav {
+  animation: navFade 2s ease 1;
+}
+
+@keyframes navFade{
+  from {
+    opacity: 0;
+    transform: translateY(-10vh);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+

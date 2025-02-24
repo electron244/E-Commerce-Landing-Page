@@ -7,6 +7,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
+      {/* <Shop /> */}
     </div>
   );
 }
