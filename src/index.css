@@ -3,6 +3,10 @@
 .logo {
   animation: rotate360 4s linear infinite;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: #dadfffe3;
 
