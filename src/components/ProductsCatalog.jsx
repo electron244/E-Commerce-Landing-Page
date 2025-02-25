@@ -55,6 +55,7 @@ const ProductsCatalog = () => {
       className="h-[100vh] flex flex-wrap w-full justify-center items-center gap-4"
       id="products"
     >
+        
         {products.map((product,index)=>{
             return( <Card title={product.title} price={product.price} image={product.image} key={index}/>)
         })}

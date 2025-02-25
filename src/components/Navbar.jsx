@@ -17,7 +17,7 @@ const Navbar = () => {
           </a>
 
           <h1>
-            Infinity <span className="text-[#6a00ff]">Linkage.</span>
+            Infinity <span className="text-[#6a00ff]">Fashion.</span>
           </h1>
         </div>
 
