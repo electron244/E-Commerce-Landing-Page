@@ -2,7 +2,7 @@ import { FaHome } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 import { AiFillProduct } from "react-icons/ai";
 import { FaShoppingCart } from "react-icons/fa";
-import Logo from "../assets/logo.svg";
+import Logo from "../assets/logo_new.png";
 const Navbar = () => {
   return (
     <>
@@ -12,7 +12,7 @@ const Navbar = () => {
             <img
               src={Logo}
               alt="No Image"
-              className=" logo h-15 cursor-pointer hover:scale-135 duration-300 ease"
+              className=" logo h-18 mix-blend-multiply cursor-pointer hover:scale-135 duration-300 ease "
             />
           </a>
 
