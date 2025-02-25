@@ -3,6 +3,9 @@
 .logo {
   animation: rotate360 4s linear infinite;
 }
+*{
+  box-sizing: border-box;
+}
 html {
   scroll-behavior: smooth;
 }

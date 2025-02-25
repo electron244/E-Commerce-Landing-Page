@@ -16,7 +16,7 @@ const Hero = () => {
           Discover the best products at unbeatable prices.
         </p>
         <a
-          href="#shop"
+          href="#products"
           className="w-full flex justify-center"
         >
           <button className="hover:bg-[#9d7cff] hover:scale-110 w-1/2 bg-[#6a00ff] rounded-full h-13 text-white cursor-pointer duration-300 ease font-semibold text-xl flex justify-center items-center gap-2">Shop Now <FaArrowRightLong /></button>
